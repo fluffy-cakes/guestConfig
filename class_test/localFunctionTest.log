@@ -1,0 +1,43 @@
+PowerShell 7.2.2
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/powershell
+Type 'help' to get help.
+
+~
+➜ help *thissvc
+
+Name                              Category  Module                    Synopsis
+----                              --------  ------                    --------
+Get-ThisSvc                       Function  MyDscResource             …
+Set-ThisSvc                       Function  MyDscResource             …
+Test-ThisSvc                      Function  MyDscResource             …
+
+~
+➜ Get-ThisSvc -ensure "Running" -serviceName "W32Time"
+
+Name                           Value
+----                           -----
+Reasons                        {Reason}
+ensure                         Stopped
+
+~
+➜ $get = Get-ThisSvc -ensure "Running" -serviceName "W32Time"
+~
+➜ $get.Reasons
+
+Code                        Phrase
+----                        ------
+myService:myService:W32Time W32Time is NOT running
+
+~
+➜ $get | ConvertTo-Json
+{
+  "Reasons": [
+    {
+      "Code": "myService:myService:W32Time",
+      "Phrase": "W32Time is NOT running"
+    }
+  ],
+  "ensure": "Stopped"
+}

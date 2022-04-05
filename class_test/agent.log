@@ -1,0 +1,162 @@
+[2022-04-05 15:00:52.266] [PID 7008] [TID 5920] [CONSISTENCY_OPERATIONS] [INFO] [ef76988a-5e7f-47b5-8c3e-a56492a48f45] Starting consistency for newBase
+[2022-04-05 15:00:52.267] [PID 7008] [TID 5920] [CONSISTENCY_OPERATIONS] [INFO] [ef76988a-5e7f-47b5-8c3e-a56492a48f45] Starting run_consistency for configuration : 'newBase', Compliance status : 'NonCompliant', solution type : 'custom_inguest'
+[2022-04-05 15:00:52.267] [PID 7008] [TID 5920] [CONSISTENCY_OPERATIONS] [INFO] [Starting test_dsc_configuration in run_consistency for configuration '{0}'] newBase
+[2022-04-05 15:00:52.268] [PID 7008] [TID 5920] [CONSISTENCY_OPERATIONS] [INFO] [ef76988a-5e7f-47b5-8c3e-a56492a48f45] Calling test_dsc_configuration for newBase.
+[2022-04-05 15:00:52.600] [PID 7008] [TID 5920] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job {2F223FB0-B4F1-11EC-8874-002248430018} : LCM has released the resource state cache.
+[2022-04-05 15:00:52.607] [PID 7008] [TID 5920] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job {2F223FB0-B4F1-11EC-8874-002248430018} : Reading the file content from DSCEngineCache.mof
+[2022-04-05 15:00:52.614] [PID 7008] [TID 5920] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job {2F223FB0-B4F1-11EC-8874-002248430018} : Reading agent registration information from ('C:\Packages\Plugins\Microsoft.GuestConfiguration.ConfigurationforWindows\1.29.33.0\dsc\GC\..\GC\..\\GC\PullServiceRegistrationInfo\RegistrationInfo.txt')
+[2022-04-05 15:00:52.615] [PID 7008] [TID 5920] [Engine] [INFO] [ef76988a-5e7f-47b5-8c3e-a56492a48f45] Testing configuration : configuration_name = newBase, file_path =
+[2022-04-05 15:00:52.617] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Operation Test-DscConfiguration started by user sid null from computer null.
+[2022-04-05 15:00:52.618] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Deleting file from C:\ProgramData\GuestConfig\Configuration\newBase\\DSCEngineCache.mof
+[2022-04-05 15:00:52.632] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Getting Metaconfiguration details.
+[2022-04-05 15:00:52.640] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Getting Metaconfiguration details.
+[2022-04-05 15:00:52.641] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Getting Metaconfiguration details.
+[2022-04-05 15:00:52.641] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Function CallTestConfiguration started with parameters
+ 	 DataSize: 0
+ 	 Flags: 0
+ 	 Execution Mode: 0
+[2022-04-05 15:00:52.642] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Displaying messages from the engine:
+	 WMI channel 1
+	 ResourceID:
+	 Message : [pmacktestconfig]: LCM:  [ Start  Test     ]
+[2022-04-05 15:00:52.643] [PID 7008] [TID 1788] [DSCEngine] [WARNING] [00000000-0000-0000-0000-000000000000] [c:\git\desiredstateconfiguration\src\dsc\engine\configurationmanager\localconfigmanagerhelper.c:4615] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Displaying messages from built-in DSC resources:
+	 WMI channel 0
+	 ResourceID:
+	 Message : [pmacktestconfig]:                            [] The TEST operation will be carried against a pending configuration since the latest configuration has not converged yet.
+[2022-04-05 15:00:52.645] [PID 7008] [TID 1788] [DSCEngine] [WARNING] [00000000-0000-0000-0000-000000000000] [c:\git\desiredstateconfiguration\src\dsc\engine\enginehelper\enginehelper.c:2435] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : WarningMessage The TEST operation will be carried against a pending configuration since the latest configuration has not converged yet.
+[2022-04-05 15:00:52.646] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Applying configuration from C:\ProgramData\GuestConfig\Configuration\newBase\\Pending.mof.
+[2022-04-05 15:00:52.646] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Getting Metaconfiguration details.
+[2022-04-05 15:00:52.647] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Module manager is loading instance document from location C:\ProgramData\GuestConfig\Configuration\newBase\\Pending.mof
+[2022-04-05 15:00:52.654] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : The full path of the native resources 'C:\ProgramData\GuestConfig\Configuration\newBase\Modules\DscNativeResources\\MySvc\MySvc.dll' does not exist.
+[2022-04-05 15:00:52.654] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Getting Metaconfiguration details.
+[2022-04-05 15:00:53.202] [PID 7008] [TID 1788] [PSPROVIDER] [INFO] [00000000-0000-0000-0000-000000000000] InitializeCoreCLR(). intializeCoreClr() is successful
+[2022-04-05 15:00:53.326] [PID 7008] [TID 1788] [PSPROVIDER] [INFO] [00000000-0000-0000-0000-000000000000] CreateDelegate(). successfully created managed delegate for assemblyName:Microsoft.Windows.DSC.CoreConfProviders, Culture=neutral, PublicKeyToken=31bf3856ad364e35 className:Microsoft.PowerShell.DesiredStateConfiguration.Internal.DscPluginManagedEntryWrapper methodName:InitPlugin
+[2022-04-05 15:00:53.345] [PID 7008] [TID 1788] [PSPROVIDER] [INFO] [00000000-0000-0000-0000-000000000000] GetFunctionPtrs(). returnValue:0
+[2022-04-05 15:01:15.198] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Validating instance document.
+[2022-04-05 15:01:15.198] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Parsing the configuration to apply.
+[2022-04-05 15:01:15.198] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Method SendConfigurationApply started with parameters
+ 	 Class name: OMI_ConfigurationDocument
+ 	 Resource ID:
+ 	 Flags: 150994944
+ 	 Execution Mode: 12582912
+ 	 DSC resource Namespace: null
+[2022-04-05 15:01:15.199] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Resolving Dependencies inside the configuration document.
+[2022-04-05 15:01:15.199] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Resource execution sequence :: [MySvc]testFile.
+[2022-04-05 15:01:15.199] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Setting resources in order. Number of resources: 1
+[2022-04-05 15:01:15.200] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : LCM has released the resource state cache.
+[2022-04-05 15:01:15.200] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : LCM has resized the resource state cache.
+[2022-04-05 15:01:15.201] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Activity LCM
+CurrentOperation [pmacktestconfig] Test
+StatusDescription Testing Configuration
+ PercentComplete 100
+ SecondsRemaining 1
+[2022-04-05 15:01:15.201] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Displaying messages from the engine:
+	 WMI channel 1
+	 ResourceID: [MySvc]testFile
+	 Message : [pmacktestconfig]: LCM:  [ Start  Resource ]  [[MySvc]testFile]
+[2022-04-05 15:01:15.201] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Getting a registration instance for MySvc
+[2022-04-05 15:01:15.202] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Moving the resource [MySvc]testFile of class MySvc to desired state.
+[2022-04-05 15:01:15.202] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Getting Metaconfiguration details.
+[2022-04-05 15:01:15.203] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Executing operations for PS DSC resource MySvc with resource name [MySvc]testFile
+[2022-04-05 15:01:15.203] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Method Exec_PSProvider started with parameters
+ 	 Class name: MySvc
+ 	 Resource ID: [MySvc]testFile
+ 	 Flags: 150994944
+ 	 Execution Mode: 12582912
+ 	 DSC resource Namespace: null
+[2022-04-05 15:01:15.204] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Displaying messages from the engine:
+	 WMI channel 1
+	 ResourceID: [MySvc]testFile
+	 Message : [pmacktestconfig]: LCM:  [ Start  Test     ]  [[MySvc]testFile]
+[2022-04-05 15:01:19.455] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Displaying messages from the engine:
+	 WMI channel 1
+	 ResourceID: [MySvc]testFile
+	 Message : [pmacktestconfig]: LCM:  [ End    Test     ]  [[MySvc]testFile] False in 4.2520 seconds.
+[2022-04-05 15:01:19.456] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Displaying messages from the engine:
+	 WMI channel 1
+	 ResourceID: [MySvc]testFile
+	 Message : [pmacktestconfig]: LCM:  [ End    Resource ]  [[MySvc]testFile]
+[2022-04-05 15:01:19.458] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Displaying messages from the engine:
+	 WMI channel 1
+	 ResourceID:
+	 Message : [pmacktestconfig]: LCM:  [ End    Test     ]     Completed processing test operation. The operation returned False.
+[2022-04-05 15:01:19.458] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Method CallTestConfiguration ended successfully
+[2022-04-05 15:01:19.458] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Displaying messages from the engine:
+	 WMI channel 1
+	 ResourceID: LCM
+	 Message : [pmacktestconfig]: LCM:  [ End    Test     ]    in  26.8400 seconds.
+[2022-04-05 15:01:19.459] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Operation Test-DscConfiguration completed successfully.
+[2022-04-05 15:01:19.459] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Getting Metaconfiguration details.
+[2022-04-05 15:01:19.460] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Deleting file from C:\ProgramData\GuestConfig\Configuration\newBase\\DSCEngineCache.mof
+[2022-04-05 15:01:19.462] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Method CU_TestConfiguration ended successfully
+[2022-04-05 15:01:19.462] [PID 7008] [TID 5920] [Engine] [INFO] [ef76988a-5e7f-47b5-8c3e-a56492a48f45] Test configuration completed successfully.
+[2022-04-05 15:01:19.483] [PID 7008] [TID 5920] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job  : LCM has released the resource state cache.
+[2022-04-05 15:01:19.484] [PID 7008] [TID 5920] [CONSISTENCY_OPERATIONS] [INFO] [Starting get_dsc_configuration in run_consistency for configuration '{0}'] newBase
+[2022-04-05 15:01:19.484] [PID 7008] [TID 5920] [CONSISTENCY_OPERATIONS] [INFO] [ef76988a-5e7f-47b5-8c3e-a56492a48f45] Calling get_dsc_configuration for newBase.
+[2022-04-05 15:01:19.905] [PID 7008] [TID 5920] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job {3F5BCE28-B4F1-11EC-8874-002248430018} : LCM has released the resource state cache.
+[2022-04-05 15:01:19.906] [PID 7008] [TID 5920] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job {3F5BCE28-B4F1-11EC-8874-002248430018} : Reading the file content from DSCEngineCache.mof
+[2022-04-05 15:01:19.907] [PID 7008] [TID 5920] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job {3F5BCE28-B4F1-11EC-8874-002248430018} : Reading agent registration information from ('C:\Packages\Plugins\Microsoft.GuestConfiguration.ConfigurationforWindows\1.29.33.0\dsc\GC\..\GC\..\\GC\PullServiceRegistrationInfo\RegistrationInfo.txt')
+[2022-04-05 15:01:19.907] [PID 7008] [TID 5920] [Engine] [INFO] [ef76988a-5e7f-47b5-8c3e-a56492a48f45] Getting configuration : configuration_name = newBase, file_path = ''
+[2022-04-05 15:01:19.908] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Operation Get-DscConfiguration started by user sid null from computer null.
+[2022-04-05 15:01:19.908] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Deleting file from C:\ProgramData\GuestConfig\Configuration\newBase\\DSCEngineCache.mof
+[2022-04-05 15:01:19.914] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Getting Metaconfiguration details.
+[2022-04-05 15:01:19.915] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Getting Metaconfiguration details.
+[2022-04-05 15:01:19.916] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Getting Metaconfiguration details.
+[2022-04-05 15:01:19.917] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Function CallGetConfiguration started with parameters
+ 	 DataSize: 0
+ 	 Flags: 0
+ 	 Execution Mode: 0
+[2022-04-05 15:01:19.918] [PID 7008] [TID 1788] [DSCEngine] [WARNING] [00000000-0000-0000-0000-000000000000] [c:\git\desiredstateconfiguration\src\dsc\engine\configurationmanager\localconfigmanagerhelper.c:4615] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Displaying messages from built-in DSC resources:
+	 WMI channel 0
+	 ResourceID:
+	 Message : [pmacktestconfig]:                            [] The GET operation will be carried against a pending configuration since the latest configuration has not converged yet.
+[2022-04-05 15:01:19.919] [PID 7008] [TID 1788] [DSCEngine] [WARNING] [00000000-0000-0000-0000-000000000000] [c:\git\desiredstateconfiguration\src\dsc\engine\enginehelper\enginehelper.c:2435] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : WarningMessage The GET operation will be carried against a pending configuration since the latest configuration has not converged yet.
+[2022-04-05 15:01:19.921] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Module manager is loading instance document from location C:\ProgramData\GuestConfig\Configuration\newBase\\Get.mof
+[2022-04-05 15:01:19.929] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : The full path of the native resources 'C:\ProgramData\GuestConfig\Configuration\newBase\Modules\DscNativeResources\\MySvc\MySvc.dll' does not exist.
+[2022-04-05 15:01:19.930] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Getting Metaconfiguration details.
+[2022-04-05 15:01:19.930] [PID 7008] [TID 1788] [PSPROVIDER] [INFO] [00000000-0000-0000-0000-000000000000] GetFunctionPtrs(). returnValue:0
+[2022-04-05 15:01:19.959] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Validating instance document.
+[2022-04-05 15:01:19.960] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Displaying messages from the engine:
+	 WMI channel 1
+	 ResourceID:
+	 Message : [pmacktestconfig]: LCM:  [ Start  Get      ]
+[2022-04-05 15:01:19.961] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Getting Metaconfiguration details.
+[2022-04-05 15:01:19.962] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Executing GET for PS DSC resource MySvc with resource name [MySvc]testFile
+[2022-04-05 15:01:19.962] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Method Get_PSProvider started with parameters
+ 	 Class name: MySvc
+ 	 Resource ID: [MySvc]testFile
+ 	 Flags: 0
+ 	 Execution Mode: 12582912
+ 	 DSC resource Namespace: null
+[2022-04-05 15:01:21.109] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Displaying messages from the engine:
+	 WMI channel 1
+	 ResourceID: [MySvc]testFile
+	 Message : [pmacktestconfig]: LCM:  [ End    Get      ]  [[MySvc]testFile]  in 1.1450 seconds.
+[2022-04-05 15:01:21.109] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Method Get_PSProvider ended successfully
+[2022-04-05 15:01:21.110] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Deleting file from C:\ProgramData\GuestConfig\Configuration\newBase\\Get.mof
+[2022-04-05 15:01:21.110] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Method CallGetConfiguration ended successfully
+[2022-04-05 15:01:21.111] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Displaying messages from the engine:
+	 WMI channel 1
+	 ResourceID: LCM
+	 Message : [pmacktestconfig]: LCM:  [ End    Get      ]    in  1.1950 seconds.
+[2022-04-05 15:01:21.111] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Operation Get-DscConfiguration completed successfully.
+[2022-04-05 15:01:21.112] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Getting Metaconfiguration details.
+[2022-04-05 15:01:21.112] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Deleting file from C:\ProgramData\GuestConfig\Configuration\newBase\\DSCEngineCache.mof
+[2022-04-05 15:01:21.114] [PID 7008] [TID 1788] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job ef76988a-5e7f-47b5-8c3e-a56492a48f45 : Method CU_GetConfiguration ended successfully
+[2022-04-05 15:01:21.115] [PID 7008] [TID 5920] [Engine] [INFO] [ef76988a-5e7f-47b5-8c3e-a56492a48f45] Get configuration completed successfully.
+[2022-04-05 15:01:21.118] [PID 7008] [TID 5920] [DSCEngine] [INFO] [00000000-0000-0000-0000-000000000000] Job  : LCM has released the resource state cache.
+[2022-04-05 15:01:21.125] [PID 7008] [TID 5920] [Reports] [INFO] [ef76988a-5e7f-47b5-8c3e-a56492a48f45] Creating assignment report for job 'ef76988a-5e7f-47b5-8c3e-a56492a48f45'. Resource '[MySvc]testFile' is not compliant because W32Time is NOT running (myService:myService:W32Time).
+[2022-04-05 15:01:21.126] [PID 7008] [TID 5920] [Pull Client] [INFO] [ef76988a-5e7f-47b5-8c3e-a56492a48f45] Initializing pull client.
+[2022-04-05 15:01:21.191] [PID 7008] [TID 5920] [METADATA_INFO] [INFO] [00000000-0000-0000-0000-000000000000] Resouce Id from get_vm_resource_id - subscriptions/dd954fbc-e5aa-463a-90d5-bd799cf06ea3/resourceGroups/pmacktestconfig/providers/Microsoft.Compute/virtualMachines/pmacktestconfig
+[2022-04-05 15:01:21.214] [PID 7008] [TID 5920] [METADATA_INFO] [INFO] [00000000-0000-0000-0000-000000000000] Getting msi info from public region for vm located in 'uksouth' location.
+[2022-04-05 15:01:21.214] [PID 7008] [TID 5920] [METADATA_INFO] [INFO] [00000000-0000-0000-0000-000000000000] Connecting to MSI endpoint: http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https%3A%2F%2Fmanagement.core.windows.net%2F
+[2022-04-05 15:01:21.256] [PID 7008] [TID 5920] [PROXY_INFO] [INFO] [00000000-0000-0000-0000-000000000000] No proxy settings used. Proxy settings from 'https_proxy' env. variable are empty.
+[2022-04-05 15:01:21.256] [PID 7008] [TID 5920] [Pull Client] [INFO] [ef76988a-5e7f-47b5-8c3e-a56492a48f45] Sending report for 'newBase' to 'https://uksouth-gas.guestconfiguration.azure.com/virtualMachines/xxxxxxxx/assignments/newBase/reports?api-version=2020-11-08'
+[2022-04-05 15:01:22.878] [PID 7008] [TID 5920] [Reports] [INFO] [ef76988a-5e7f-47b5-8c3e-a56492a48f45] Sent assignment report for job 'ef76988a-5e7f-47b5-8c3e-a56492a48f45'. Compliance = false'
+[2022-04-05 15:01:22.879] [PID 7008] [TID 5920] [CONSISTENCY_OPERATIONS] [INFO] [ef76988a-5e7f-47b5-8c3e-a56492a48f45] Completed consistency run successfully for newBase
+[2022-04-05 15:01:22.879] [PID 7008] [TID 5920] [GC_OPERATIONS] [INFO] [00000000-0000-0000-0000-000000000000] Agent is waiting for running operations to finish. Current active operation count is 0.
+[2022-04-05 15:01:22.880] [PID 7008] [TID 5920] [GC_OPERATIONS] [INFO] [00000000-0000-0000-0000-000000000000] All the active operations are finished.
+[2022-04-05 15:01:22.880] [PID 7008] [TID 5920] [CONSISTENCY_OPERATIONS] [INFO] [00000000-0000-0000-0000-000000000000] Deleting consistency operation context.
+[2022-04-05 15:01:22.880] [PID 7008] [TID 5920] [CONSISTENCY_OPERATIONS] [INFO] [00000000-0000-0000-0000-000000000000] Consistency operation context deleted successfully.
+[2022-04-05 15:01:22.881] [PID 7008] [TID 5920] [GCCACHE_OPERATIONS] [INFO] [00000000-0000-0000-0000-000000000000] gc cache context deleted successfully.
+[2022-04-05 15:01:23.466] [PID 7008] [TID 5600] [PSPROVIDER] [INFO] [00000000-0000-0000-0000-000000000000] Cleanup(). shutdownCoreClr() is successful
